@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1-bullseye
 
 RUN apt-get update
 
