@@ -1,6 +1,6 @@
 git+https://github.com/rancher/client-python.git@master#egg=client-python
 boto3==1.21.33
-cryptography==3.4.7
+cryptography==41.0.5
 flake8==3.5.0
 invoke==1.2.0
 Jinja2==3.0.0
@@ -21,3 +21,4 @@ rsa==4.7.2
 websocket-client==0.57.0
 semver==2.13.0
 packaging==20.9
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
