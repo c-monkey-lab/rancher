@@ -10,5 +10,8 @@ pyyaml==5.4.1
 netaddr==0.7.19
 requests==2.21.0
 kubernetes==12.0.1
-jinja2>=2.10
+jinja2>=3.1.4
 cryptography==3.4.7
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
