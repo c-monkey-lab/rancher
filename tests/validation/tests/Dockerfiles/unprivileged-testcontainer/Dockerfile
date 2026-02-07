@@ -1,4 +1,4 @@
-FROM nginxinc/nginx-unprivileged as base
+FROM nginxinc/nginx-unprivileged:1.29.3-trixie as base
 
 USER root
 RUN apt-get update
